@@ -1,0 +1,10 @@
+[workspace]
+
+members = ["foo", "bar", "baz"]
+
+default-members = ["baz"]
+
+[workspace.dependencies]
+foo = { path = "foo" }
+bar = { path = "bar" }
+baz = { path = "baz" }
